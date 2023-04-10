@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { Component } from 'react'
+import './GetDataComponent.css'
 
 export default class GetDataComponent extends Component {
     constructor(){
@@ -26,16 +27,22 @@ export default class GetDataComponent extends Component {
   render() {
     const {comics, err} = this.state
     return (
-      <div>
+      <div className='comi'>
         <h1>Comic Posts</h1>
+        <div className='posts'>
         {comics.length ? comics.map(comic => 
         <div className='comic-panel'>
-            {comic.name}
+        <img src={comic.image} alt=''></img><br></br>
+          <strong> Name: </strong>{comic.name}<br></br>
+          <strong> Status:</strong> {comic.status}<br></br>
+          <strong> Species:</strong> {comic.species}<br></br>
+            
             </div>)
             :
             null
         }
         {err? <div>{err}</div> : null}
+        </div>
       </div>
     )
   }

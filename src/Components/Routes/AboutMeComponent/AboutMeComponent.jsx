@@ -4,8 +4,8 @@ import './AboutMeComponent.css'
 function AboutMeComponent() {
   return (
     <div className='Aboutme'>
-      <h1>About me</h1>
       <h2>Sowjanya Satheesh</h2>
+      <div className='container'>
       <section className='profile'>
         <strong>Profile: <br></br></strong>
         A diligent learner and an innovative thinker with a strong foundation in Computer Science and 
@@ -19,10 +19,11 @@ function AboutMeComponent() {
         <strong>Education: <br></br></strong>
         Bachelor of Engineering | Saveetha Engineering College, Chennai<br></br>
         Aug 2020 - Aug 2024<br></br>
-        Pursuing my B.E degree in Computer Science and Engineering with a cumulative average grade point average (CGPA) of 9.7 (till date).<br></br>
+        Pursuing my B.E degree in Computer Science and Engineering with a cumulative average <br></br>
+        grade point average (CGPA) of 9.7 (till date).<br></br>
         HSC | D.A.V Senior Secondary School, Chennai<br></br>
         Apr 2018 - Apr 2020<br></br>
-        Completed my high school studies at D.A.V Senior Secondary School in Computer Science Stream. Percentage : 94%<br></br>
+        Completed my high school studies at D.A.V Senior Secondary School in Computer Science Stream.<br></br> Percentage : 94%<br></br>
         SSLC | L. M. Dadha Senior Secondary School, Chennai<br></br>
         Apr 2016 - Apr 2018<br></br>
         Completed my high school studies at D.A.V Senior Secondary School in Computer Science Stream. Percentage - 88%<br></br>
@@ -41,6 +42,7 @@ function AboutMeComponent() {
     • Have secured a black belt and award for “Best Kata<br></br>
     performance”.<br></br>
       </section>
+    </div>
     </div>
   )
 }
