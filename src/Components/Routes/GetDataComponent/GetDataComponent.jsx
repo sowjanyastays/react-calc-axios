@@ -15,7 +15,7 @@ export default class GetDataComponent extends Component {
         .then(res =>{
             console.log(res);
             console.log(res.data.results)
-            this.setState({comics:res.data})
+            this.setState({comics:res.data.results})
 
         })
         .catch(error =>{
@@ -28,7 +28,7 @@ export default class GetDataComponent extends Component {
     return (
       <div>
         <h1>Comic Posts</h1>
-        {comics.length ? comics.results.map(comic => 
+        {comics.length ? comics.map(comic => 
         <div className='comic-panel'>
             {comic.name}
             </div>)

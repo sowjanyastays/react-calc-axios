@@ -1,7 +1,56 @@
 .Aboutme{
     display: flex;
     flex-direction: column;
+    background-color: lightgreen;
+    color: black;
+    flex-wrap: wrap;
+    border: 1px solid black;
 }
 h2{
     padding-left: 550px;
+}
+.profile{
+    justify-content: center;
+    padding-left: 375px;
+    margin-top:25px;
+}
+.education{
+    justify-content: center;
+    padding-left: 375px;
+    margin-top:45px;
+}
+.achieve{
+    justify-content: center;
+    padding-left: 375px;
+    margin-top:45px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;;
+}
+ul{
+
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightpink;
+  background-color: lightpink;
+  height: 30px;
+  width: 1310px;
+  color: white;
+}
+li{
+  padding-left: 25px;
+  margin-left: 25px;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+}
+li:hover{
+  background-color: white;
+  margin-left: 10px;
+  text-align: center;
 }
