@@ -1,0 +1,7 @@
+.Aboutme{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    padding-left: 550px;
+}
