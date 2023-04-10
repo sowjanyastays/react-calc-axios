@@ -1,0 +1,40 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+    float: left;
+    padding-left: 550px ;
+}
+h1{
+   justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 2rem 1rem;
+    background-color: lightblue;
+}
+form input{
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    
+}
+#result{
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    width: 30%;
+    margin: 3px 3px 3px 3px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
